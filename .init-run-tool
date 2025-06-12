@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew installDebug",
+    "working_directory": "/home/kavia/workspace/code-generation/foodieexpress-demo-109137-bae7ac23/foodieexpress_frontend"
+}

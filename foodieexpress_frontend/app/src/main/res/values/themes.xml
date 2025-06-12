@@ -1,0 +1,20 @@
+<resources>
+    <!-- PUBLIC_INTERFACE
+       AppTheme is the main light theme for FoodieExpress (FoodieExpress Demo). 
+       Uses custom brand colors for a vibrant food app experience.
+    -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorSecondary</item>
+        <item name="android:windowBackground">@color/colorSecondary</item>
+        <item name="bottomNavigationStyle">@style/Widget.BottomNavigationView.FoodieExpress</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.FoodieExpress" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_selector</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>
